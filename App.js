@@ -1,21 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+//Nesse caso não é nescessário especificar o arquivos pois só tem um lá dentro da pasta home,
+//quando isso acontece ele por default busca por um arquivo index
+import Home from './src/views/Home';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Ambiente React Native ok!!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <Home/>
+    
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
