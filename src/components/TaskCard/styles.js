@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
     card: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        padding: 16,
+        padding: 20,
         marginVertical: 8,
         width: '86%',
         height: 80,
@@ -30,11 +30,12 @@ const styles = StyleSheet.create({
     cardTitle: {
         marginLeft: 10,
         fontWeight: 'bold',
-        fontSize: 16
+        fontSize: 13
     },
     cardRight: {
         alignItems: 'flex-end',
-        justifyContent: 'space-around',
+        justifyContent: 'space-between',
+        height: 50
     },
     cardDate: {
         color: '#EE6B26',
